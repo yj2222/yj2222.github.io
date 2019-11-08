@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet"  href="style.css">
+        <title>サンプルサイト</title>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+        </script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <main>
+            <!-- タブのボタン部分 -->
+            <a class="tab_btn is-active-btn" href="#item0">Top</a>
+            <a class="tab_btn" href="#item1">Hokkaidō</a>
+            <a class="tab_btn" href="#item2">Tokyo</a>
+            <a class="tab_btn" href="#item3">Kyoto</a>
+
+            <!-- タブのコンテンツ部分 -->
+            <div class="tab_item is-active-item" id="item0">
+                <img src="images/image4.jpg" class="image">
+                <p>天気予報アプリです</p>
+            </div>
+            <div class="tab_item" id="item1">
+                <img src="images/image3.jpg" class="image">
+                <div id="weather__result"></div>
+            </div>
+            <div class="tab_item" id="item2">
+                <img src="images/image2.jpg" class="image">
+                <div id="weather__result"></div>
+            </div>
+            <div class="tab_item" id="item3">
+                <img src="images/image1.jpg" class="image">
+                <div id="weather__result"></div>
+            </div>
+        </main>
+    </body>
+</html>
